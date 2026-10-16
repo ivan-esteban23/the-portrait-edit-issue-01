@@ -1,0 +1,87 @@
+{
+  "number": "01",
+  "title": "The Fashion Issue",
+  "pages": 103,
+  "studies": 83,
+  "description": "Fashion, film and visual studies. Eighty-three studies of silhouette, texture and the way light shapes a mood.",
+  "download": "https://github.com/ivan-esteban23/the-portrait-edit-issue-01/releases/download/edition-1/The_Portrait_Edit_Issue_01.pdf",
+  "other_number": "02",
+  "other_url": "https://ivan-esteban23.github.io/the-portrait-edit-issue-02/",
+  "chapters": [
+    {
+      "title": "Golden Hour",
+      "page": 4
+    },
+    {
+      "title": "Quiet Gestures",
+      "page": 5
+    },
+    {
+      "title": "Frost & Fiction",
+      "page": 7
+    },
+    {
+      "title": "Velvet Reverie",
+      "page": 8
+    },
+    {
+      "title": "Soft Structure",
+      "page": 10
+    },
+    {
+      "title": "Ribbons & Lines",
+      "page": 12
+    },
+    {
+      "title": "Afterlight",
+      "page": 15
+    },
+    {
+      "title": "Sculpted Drama",
+      "page": 20
+    },
+    {
+      "title": "Winter Passage",
+      "page": 24
+    },
+    {
+      "title": "Blue & Gold",
+      "page": 28
+    },
+    {
+      "title": "City Ornament",
+      "page": 32
+    },
+    {
+      "title": "Everyday Theatre",
+      "page": 36
+    },
+    {
+      "title": "Romantic Geometry",
+      "page": 40
+    },
+    {
+      "title": "Modern Proportion",
+      "page": 44
+    },
+    {
+      "title": "The Statement",
+      "page": 48
+    },
+    {
+      "title": "Texture in Motion",
+      "page": 52
+    },
+    {
+      "title": "The New Uniform",
+      "page": 56
+    },
+    {
+      "title": "Reference archive",
+      "page": 61
+    }
+  ],
+  "sha256": "443e51c54db041d6e975b3cb5ecafabe88081e524ac424a194ae34f8e112394c",
+  "pdf_bytes": 362949600,
+  "navigation_label": "17 chapters + reference archive"
+}
