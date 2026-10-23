@@ -1,0 +1,33 @@
+name: Validate repository
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Verify reader controls
+        run: node verify-reader.cjs
+      - name: Check builder syntax
+        run: python -m py_compile build.py
+      - name: Verify published page assets
+        run: python verify-assets.py
